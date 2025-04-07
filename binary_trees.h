@@ -4,7 +4,7 @@
 #include <stddef.h> /* For size_t*/
 
 /* Binary tree node structure */
-typedef struct binary_tree
+typedef struct binary_tree_s
 {
 	int n;
 
