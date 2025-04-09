@@ -58,6 +58,8 @@ size_t binary_tree_nodes(const binary_tree_t *tree);
 /* Task 14: Find the sibling of a node */
 binary_tree_t *binary_tree_sibling(binary_tree_t *node);
 
+int binary_tree_balance(const binary_tree_t *tree);
+
 /* Task 15: Find the uncle of a node */
 binary_tree_t *binary_tree_uncle(binary_tree_t *node);
 
